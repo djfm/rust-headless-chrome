@@ -231,7 +231,7 @@ impl Browser {
     /// # use anyhow::Result;
     /// # fn main() -> Result<()> {
     /// #
-    /// # use headless_chrome::{Browser, protocol::target::methods::CreateTarget};
+    /// # use headless_chrome::{Browser, protocol::cdp::Target::CreateTarget};
     /// # let browser = Browser::default()?;
     ///    let new_tab = browser.new_tab_with_options(CreateTarget {
     ///    url: "chrome://version",
