@@ -37,6 +37,7 @@ tiny_http = "0.6"
 png = { version = "0.15" }
 jpeg-decoder = { version = "0.1", default_features = false }
 filepath = "0.1.1"
+portpicker = "0.1.1"
 
 [build-dependencies]
 auto_generate_cdp = "0.3.2"
